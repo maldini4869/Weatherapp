@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_1"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            tools:src = "@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:textColor="@color/Secondarycolor"
+                android:fontFamily="@font/poppins_bold"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/avgtemp_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="avgtemp_c"
+                android:textColor="@color/Secondarycolor"
+                android:fontFamily="@font/poppins_bold"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/condition_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="condition_text"
+                android:textColor="@color/Secondarycolor"
+                android:fontFamily="@font/poppins_bold"
+                tools:ignore="MissingConstraints" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

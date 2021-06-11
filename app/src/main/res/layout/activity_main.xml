@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".main.MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@color/Maincolor"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Wind"
+                android:textColor="@color/white"
+
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/wind_kph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/white"
+                android:text="wind"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/Pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/poppins"
+                android:text="Pressure"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/pressure_mb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/white"
+                android:text="pressure_mb"
+                android:textSize="14dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/Gust"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/poppins"
+                android:text="Gust"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/gust_kph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="44dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/white"
+                android:text="gust_kph"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/Humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Humidity"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/white"
+                android:text="humidity"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/Precip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Precip"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/precip_mm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="34dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/white"
+                android:text="precip_mb"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="120dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/Cloud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/poppins"
+                android:text="Cloud"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/cloud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="36dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/white"
+                android:text="cloud"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                tools:src = "@tools:sample/avatars"/>
+
+
+            <TextView
+                android:id="@+id/temp_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="temp_c"
+                android:gravity="right"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+
+            <TextView
+                android:id="@+id/last_updated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/white"
+                android:paddingRight="12dp"
+                android:text="0000000000"
+                android:textSize="8dp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:layout_marginTop="170dp"
+            android:textColor="@color/Secondarycolor"
+            android:text="location"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:id="@+id/condition_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:textColor="@color/Secondarycolor"
+            android:text="condition_text"
+            android:textSize="18dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_current"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="228dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            tools:listitem="@layout/item_row_current">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
